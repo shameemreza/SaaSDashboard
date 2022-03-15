@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF21838427E100D7001C46DA /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF21838327E100D7001C46DA /* GraphView.swift */; };
+		BF21838627E1012B001C46DA /* Sales.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF21838527E1012B001C46DA /* Sales.swift */; };
 		BF75593C27DFC9BA00F5CE1A /* SaaSDashboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF75593B27DFC9BA00F5CE1A /* SaaSDashboardApp.swift */; };
 		BF75593E27DFC9BA00F5CE1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF75593D27DFC9BA00F5CE1A /* ContentView.swift */; };
 		BF75594027DFC9BB00F5CE1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF75593F27DFC9BB00F5CE1A /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF21838327E100D7001C46DA /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		BF21838527E1012B001C46DA /* Sales.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sales.swift; sourceTree = "<group>"; };
 		BF75593827DFC9BA00F5CE1A /* SaaSDashboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaaSDashboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF75593B27DFC9BA00F5CE1A /* SaaSDashboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaaSDashboardApp.swift; sourceTree = "<group>"; };
 		BF75593D27DFC9BA00F5CE1A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,6 +85,7 @@
 			children = (
 				BF75594D27DFD71700F5CE1A /* BaseView.swift */,
 				BF75594F27DFDD5D00F5CE1A /* Home.swift */,
+				BF21838327E100D7001C46DA /* GraphView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -88,6 +93,7 @@
 		BF75594C27DFD70200F5CE1A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BF21838527E1012B001C46DA /* Sales.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -163,8 +169,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF21838427E100D7001C46DA /* GraphView.swift in Sources */,
 				BF75594E27DFD71700F5CE1A /* BaseView.swift in Sources */,
 				BF75593E27DFC9BA00F5CE1A /* ContentView.swift in Sources */,
+				BF21838627E1012B001C46DA /* Sales.swift in Sources */,
 				BF75595027DFDD5D00F5CE1A /* Home.swift in Sources */,
 				BF75593C27DFC9BA00F5CE1A /* SaaSDashboardApp.swift in Sources */,
 			);
